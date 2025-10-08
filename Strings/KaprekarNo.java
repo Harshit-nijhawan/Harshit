@@ -8,7 +8,7 @@ public class KaprekarNo {
         for(int i = 1;i<strSquare.length();i++){
             int leftPart = Integer.parseInt(strSquare.substring(0, i));
             int rightPart = Integer.parseInt(strSquare.substring(i));
-            if(rightPart!=0 && leftPart + rightPart == n){
+            if(leftPart + rightPart == n){
                 return true;
             }
         }

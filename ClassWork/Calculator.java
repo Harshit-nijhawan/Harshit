@@ -1,5 +1,5 @@
 public class Calculator {
-   public static int calculate(int a,int b,String operation){
+   public int calculate(int a,int b,String operation){
       switch (operation) {
          case "+":
             return a + b;
@@ -14,10 +14,10 @@ public class Calculator {
       }
       return Integer.MIN_VALUE;
    }
-   public static double calculate(double a,double b){
+   public double calculate(double a,double b){
       return a*b;
    }
-   public static int calculate(int a,int b,int c){
+   public int calculate(int a,int b,int c){
       return a + b + c;
    }
    public static void main(String[] args) {
